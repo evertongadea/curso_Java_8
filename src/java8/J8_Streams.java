@@ -24,8 +24,8 @@ public class J8_Streams {
 		lista.stream()
 		.skip(6) 	// ignora os 6 primeiros
 		.limit(5) 	// limita a 5 itens
-		.distinct()	// impede repetiÁıes
-		.forEach(e -> System.out.println(e + " com operaÁıes intermedi·rias"));
+		.distinct()	// impede repeti√ß√µes
+		.forEach(e -> System.out.println(e + " com opera√ß√µes intermediÔøΩrias"));
 		
 		lista.stream()
 		.filter(e -> e != 8)
@@ -33,7 +33,7 @@ public class J8_Streams {
 		
 		lista.stream()
 		.map(e -> e * 2)
-		.forEach(e -> System.out.println(e + " com transformaÁ„o (*2)"));
+		.forEach(e -> System.out.println(e + " com transforma√ß√£o (*2)"));
 		
 		List<Integer> lista2 = lista.stream()
 		.map(e -> e * 2)
