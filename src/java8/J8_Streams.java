@@ -1,10 +1,10 @@
-package j8;
+package java8;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Streams {
+public class J8_Streams {
 	
 	public static void main(String[] args) {
 		List<Integer> lista = Arrays.asList(1,5,8,9,1,4,7,5,5,8,8);

@@ -1,4 +1,4 @@
-package j8;
+package java8;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,7 +7,7 @@ import java.util.List;
 
 import javax.swing.JButton;
 
-public class Lambda {
+public class J8_Lambda {
 
 	public static void main(String[] args) {
 		
